@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tambola Claim Validator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Tambola Claim Validator</h1>
+        <form id="claim-form">
+            <div>
+                <label for="ticket">Ticket (comma-separated values):</label><br>
+                <textarea id="ticket" name="ticket" rows="5" cols="30"></textarea>
+            </div>
+            <div>
+                <label for="numbersAnnounced">Numbers Announced (comma-separated values):</label><br>
+                <input type="text" id="numbersAnnounced" name="numbersAnnounced">
+            </div>
+            <div>
+                <label for="pattern">Pattern:</label><br>
+                <select id="pattern" name="pattern">
+                    <option value="Top Row">Top Row</option>
+                    <option value="Middle Row">Middle Row</option>
+                    <option value="Bottom Row">Bottom Row</option>
+                    <option value="Full House">Full House</option>
+                    <option value="Early Five">Early Five</option>
+                </select>
+            </div>
+            <button type="submit">Validate Claim</button>
+        </form>
+        <h2 id="result"></h2>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

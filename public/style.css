@@ -1,0 +1,79 @@
+/*using airbnb style sheet 
+
+https://github.com/airbnb/javascript
+
+*/
+body {
+  font-family: 'Circular', -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', sans-serif;
+  background-color: #FAFAFA;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: white;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 600px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 24px;
+  color: #484848;
+  margin-bottom: 24px;
+}
+
+form > div {
+  margin-bottom: 16px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #484848;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 12px;
+  box-sizing: border-box;
+  border: 1px solid #E3E3E3;
+  border-radius: 8px;
+  font-size: 16px;
+  color: #484848;
+}
+
+input:focus, select:focus, textarea:focus {
+  border-color: #FF5A5F;
+  outline: none;
+}
+
+button {
+  width: 100%;
+  padding: 14px;
+  background-color: #FF5A5F;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #E94E50;
+}
+
+#result {
+  margin-top: 24px;
+  text-align: center;
+  font-size: 18px;
+  color: #484848;
+}
